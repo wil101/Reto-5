@@ -5,6 +5,4 @@ monitora te queremos
 
 integrantes
 
-Wilmar Andres Osorio Usuga
-
-Emanuel Lopez Higuita
+Wilmar Andres Osorio Usuga & Emanuel Lopez Higuita
