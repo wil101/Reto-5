@@ -18,7 +18,9 @@ public class Main {
     
     Pokemon Raichu = Pikachu.evolucionar();
        
-    System.out.println(charmander.gritar());        
+    System.out.println(charmander.gritar());
+    System.out.println(charmeleon.gritar());
+    System.out.println(charizard.gritar());
     System.out.println(Squirtle.gritar());
     System.out.println(Wartortle.gritar());
     System.out.println(Blastoise.gritar());
