@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Pokemon;
 
 /**
@@ -20,15 +17,15 @@ public class Blastoise extends Pokemon{
     }
     
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
 
     public Byte getNivel() {
-        return nivel;
+        return this.nivel;
     }
 
     public int getSalud() {
-        return salud;
+        return this.salud;
     }
     
     

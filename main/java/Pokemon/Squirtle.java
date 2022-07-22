@@ -31,9 +31,10 @@ public class Squirtle extends Pokemon{
     
     
 
-    @Override
+     @Override
     public Pokemon evolucionar() {
-        return null;
+        Wartortle bolaAzul = new Wartortle(this.nombre, this.nivel, this.salud);
+        return bolaAzul;
     }
 
     @Override

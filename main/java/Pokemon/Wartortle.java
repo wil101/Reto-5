@@ -21,22 +21,23 @@ public class Wartortle extends Pokemon {
     }
     
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
 
     public Byte getNivel() {
-        return nivel;
+        return this.nivel;
     }
 
     public int getSalud() {
-        return salud;
+        return this.salud;
     }
     
     
 
-    @Override
+     @Override
     public Pokemon evolucionar() {
-        return null;
+        Blastoise blas = new Blastoise(this.nombre, this.nivel, this.salud);
+        return blas;
     }
 
     @Override
