@@ -28,11 +28,11 @@ public class Charmander extends Pokemon{
         return salud;
     }
     
-    
 
     @Override
     public Pokemon evolucionar() {
-        return null;
+        Charmeleon charm = new Charmeleon(this.nombre, this.nivel, this.salud);
+        return charm;
     }
 
     @Override
