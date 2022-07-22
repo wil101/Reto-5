@@ -1,15 +1,29 @@
-
 package Pokemon;
 
 public class Main {
     public static void main(String[] args){
-        Charmander charmander = new Charmander("Ozuna baby", (byte)5, 1200);
+    Charmander charmander = new Charmander("L", (byte)5, 1200);
+
+    Pokemon charmeleon = charmander.evolucionar();
+
+    Pokemon charizard = charmeleon.evolucionar();
+    
+    Squirtle Squirtle = new Squirtle("lila", (byte)18 ,2000);
+
+    Pokemon Wartortle = Squirtle.evolucionar();
+
+    Pokemon Blastoise = Wartortle.evolucionar();
         
-        System.out.println(charmander.gritar());
-        Pokemon charmeleon = charmander.evolucionar();
-        System.out.println(charmeleon.gritar());
-        Pokemon charizard = charmeleon.evolucionar();
-        System.out.println(charizard.gritar());
+    Pikachu Pikachu = new Pikachu("pi", (byte)15 , 1800);
+    
+    Pokemon Raichu = Pikachu.evolucionar();
+       
+    System.out.println(charmander.gritar());        
+    System.out.println(Squirtle.gritar());
+    System.out.println(Wartortle.gritar());
+    System.out.println(Blastoise.gritar());
+    System.out.println(Pikachu.gritar());
+    System.out.println(Raichu.gritar());
         
     }
 }
