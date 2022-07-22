@@ -17,5 +17,29 @@ public class Squirtle extends Pokemon{
         this.salud = salud;
     }
     
+   public String getNombre() {
+        return nombre;
+    }
+
+    public Byte getNivel() {
+        return nivel;
+    }
+
+    public int getSalud() {
+        return salud;
+    }
+    
+    
+
+    @Override
+    public Pokemon evolucionar() {
+        return null;
+    }
+
+    @Override
+    public String gritar() {
+         return "Squirtle!";
+    }
+    
     
 }
