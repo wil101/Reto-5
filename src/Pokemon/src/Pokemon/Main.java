@@ -17,6 +17,18 @@ public class Main {
     Pikachu Pikachu = new Pikachu("pi", (byte)15 , 1800);
     
     Pokemon Raichu = Pikachu.evolucionar();
+
+    Pokebola Pokebola = new Pokebola(charmander);
+
+    Pokebola Pokebola1 = new Pokebola(Squirtle);
+
+    Pokebola Pokebola2 = new Pokebola(Pikachu);
+
+    Pokebola  = setPokemon(charmander);
+
+    Pokebola1 = setPokemon(Squirtle);
+
+    Pokebola2 = setPokemon(Pikachu);
        
     System.out.println(charmander.gritar());
     System.out.println(charmeleon.gritar());
