@@ -8,36 +8,32 @@ public class Main {
 
     Pokemon charizard = charmeleon.evolucionar();
     
-    Squirtle Squirtle = new Squirtle("lila", (byte)18 ,2000);
+    Squirtle squirtle = new Squirtle("lila", (byte)18 ,2000);
 
-    Pokemon Wartortle = Squirtle.evolucionar();
+    Pokemon wartortle = squirtle.evolucionar();
 
-    Pokemon Blastoise = Wartortle.evolucionar();
+    Pokemon blastoise = wartortle.evolucionar();
         
-    Pikachu Pikachu = new Pikachu("pi", (byte)15 , 1800);
+    Pikachu pikachu = new Pikachu("pi", (byte)15 , 1800);
     
-    Pokemon Raichu = Pikachu.evolucionar();
+    Pokemon raichu = pikachu.evolucionar();
 
-    Pokebola Pokebola = new Pokebola(charmander);
+    Pokebola pokebola = new Pokebola(charmander);
 
-    Pokebola Pokebola1 = new Pokebola(Squirtle);
+    Pokebola pokebola1 = new Pokebola(squirtle);
 
-    Pokebola Pokebola2 = new Pokebola(Pikachu);
+    Pokebola pokebola2 = new Pokebola(pikachu);
 
-    Pokebola  = setPokemon(charmander);
-
-    Pokebola1 = setPokemon(Squirtle);
-
-    Pokebola2 = setPokemon(Pikachu);
+    
        
     System.out.println(charmander.gritar());
     System.out.println(charmeleon.gritar());
     System.out.println(charizard.gritar());
-    System.out.println(Squirtle.gritar());
-    System.out.println(Wartortle.gritar());
-    System.out.println(Blastoise.gritar());
-    System.out.println(Pikachu.gritar());
-    System.out.println(Raichu.gritar());
+    System.out.println(squirtle.gritar());
+    System.out.println(wartortle.gritar());
+    System.out.println(blastoise.gritar());
+    System.out.println(pikachu.gritar());
+    System.out.println(raichu.gritar());
         
     }
 }
